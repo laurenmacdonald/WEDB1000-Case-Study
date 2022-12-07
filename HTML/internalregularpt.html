@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NSH Internal - Patient Forms</title>
+        <link rel="stylesheet" href="CSS/internalforms.css">
+    </head>
+    <body>
+        <header>
+            <div class="primary-header">
+                <a href="home.html"><img class="logo" src="Images/logo-transp.png" alt="Nova Scotia Hospital"></a> 
+                    <div class="warning">   
+                        <h4>This is a private network for authorized users only.</h4>   
+                    </div>
+            </div>
+            <div class="menu-header">
+                <nav class="nav-menu">
+                    <ul class="ul-menu">
+                        <li><p class="title">Nova Scotia Hospital Intranet - Patient Forms</p></li>
+                        <li><a href="home.html" class="menu-link"><b>Nova Scotia Hospital Home</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <div class="content">
+                <h3>Quick links:</h3>
+                <p class="privacy"><b><a href="internalmenu.html">Internal Menu</a></b> |
+                    <a href="internalform.html">New Patient</a> | <a href="internalcheckup.html">Check-Up Form</a> | 
+                    <a href="internaladmission.html">Admission Form</a> | 
+                    <a href="internalregularpt.html">Regular Patient Form</a> |
+                    <a href="internaloperation.html">Operation Form</a> | 
+                    <a href="internaldischarge.html">Discharge Form</a></p>
+                <h1>Regular Patient</h1>
+                <p class="homepage-p"><b>Enter all fields, ensure all information is accurate.</b>
+                </p>
+            </div>
+            <div class="bill-form">
+                <div class="contact-information">
+                <form>
+                    <label for="chkupdate">Visit Date:<span class="required-field"></span></label><br>
+                    <input type="date" class="text-form" name="entrydate"><br>
+                    <label for="ptnumber">Patient Number:<span class="required-field"></span></label><br>
+                    <input type="text" class="text-form" name="ptnumber" placeholder="00000"><br>
+                    <label for="docID">Doctor ID:<span class="required-field"></span></label><br>
+                    <input type="text" class="text-form" name="docID" placeholder="xx000"><br>
+                    <label for="deptID">Department ID:<span class="required-field"></span></label><br>
+                    <input type="text" class="text-form" name="deptID" placeholder="000"><br>
+                    <label for="regDiag">Visit Diagnosis:<span class="required-field"></span></label><br>
+                    <input type="text" class="text-form" name="regDiag" placeholder="Diagnosis"><br>
+                    <label for="regTx">Visit Treatment Code:<span class="required-field"></span></label><br>
+                    <input type="text" class="text-form" name="regTx" placeholder="If not applicable enter code 98."><Br>
+                    <label for="regMed">Visit Prescription Code:<span class="required-field"></span></label><br>
+                    <input type="text" class="text-form" name="regMed" placeholder="If not applicable enter code 98."><br>
+                    <label for="ptStatus">Patient Status:<span class="required-field"></span></label><br>
+                    <input type="text" class="text-form" name="ptStatus" placeholder="Alive, Stable, Deceased"><br><br>
+                    <input type="submit" class="submit-button" value="Submit">
+                </form>  
+            </div>
+        </div>
+        <div class="footer">
+            <p>This network is monitored by the Nova Scotia Government.</p>
+            <br>
+            <p class="privacy"><a href="#">Privacy</a> | <a href="#">Legal</a> | <a href="#">Help</a></p>
+            <br>
+        </div>
+    </body>
+</html>
