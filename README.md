@@ -1,5 +1,6 @@
 # WEDB1000-Case-Study
 This website was created for fulfillment of a case study project for the Introduction to Website Development course at Nova Scotia Community College. This website showcases mobile-first design, HTML and CSS.
+
 Case Study Instructions:
 XYZ hospital is a multi specialty hospital that includes a number of departments, rooms, doctors, nurses, compounders, and other staff working in the hospital. Patients having different kinds of ailments come to the hospital and get checkup done from the concerned doctors. If required they are admitted in the hospital and discharged after treatment.
 
